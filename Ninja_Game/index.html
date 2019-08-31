@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Ninja Quiz</title>
+</head>
+<body>
+<!--top section-->
+<div class="intro py-3 bg-white text-center">
+	<div class="container">
+		<h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
+	</div>
+</div>
+<!--top section end-->
+
+<!--result section-->
+<div class="result py-4 d-none bg-light text-center">
+	<div class="container lead">
+		<p>You are <span class="text-primary display-4 p-3">0%</span>Ninja !!</p>
+	</div>
+</div>
+
+<!--quiz section-->
+<div class="quiz py-4 bg-primary">
+	<div class="container">
+		<h2 class="my-5 text-white">On with the questions...</h2>
+
+		<form class="quiz-form text-light">
+			<div class="my-5">
+				<p class="lead font-weight-normal">1. How do you give Ninja directions</p>
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q1" value="A" checked="true">
+					<label class="form-check-label">Show them Map</label>
+				</div>
+
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q1" value="B">
+					<label class="form-check-label">Don't worry, A Ninja will find you</label>
+				</div>
+			</div>
+
+			<div class="my-5">
+				<p class="lead font-weight-normal">2. If a Ninja has 3 apples and I take one, how many does he have now ?</p>
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q2" value="A" checked="true">
+					<label class="form-check-label">2 apples</label>
+				</div>
+
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q2" value="B">
+					<label class="form-check-label">3 apples, 1 corpses</label>
+				</div>
+			</div>
+
+			<div class="my-5">
+				<p class="lead font-weight-normal">3. What is Ninjas full name</p>
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q3" value="A" checked="true">
+					<label class="form-check-label">Ninja Ninja</label>
+				</div>
+
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q3" value="B">
+					<label class="form-check-label">Coding Ninja</label>
+				</div>
+			</div>
+
+			<div class="my-5">
+				<p class="lead font-weight-normal">4. What is Ninjas favourite game</p>
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q4" value="A" checked="true">
+					<label class="form-check-label">Larki Ghumana</label>
+				</div>
+
+				<div class="form-check my-2 text-white-50">
+					<input type="radio" name="q4" value="B">
+					<label class="form-check-label">Table Tennis</label>
+				</div>
+			</div>
+
+			<div class="text-center">
+				<input type="submit" class="btn btn-light">
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="sandbox.js"></script>
+</body>
+</html>
