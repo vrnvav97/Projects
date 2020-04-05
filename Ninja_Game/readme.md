@@ -1,0 +1,1 @@
+This attractive UI quiz project is build over front end technologies. This gives a basic idea of development for those who want to build any project related to it. This quiz is made just for fun.
