@@ -15,7 +15,7 @@ for key in my_dict:
     print(key," --> ", my_dict[key])
 
 
-my_dict.city="Delhi"
+my_dict["city"]="Delhi"
 
 # After Appending Value
 print ("After Adding Value")
